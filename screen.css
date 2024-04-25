@@ -1,4 +1,74 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+:root{
+    --main-bg-co:#E9e9e9;
+    --primary-text-co:#424242;
+    --pull-color:#ff3f3c;
+
+}
+body{
+    font-family: "Inter",sans-serif;
+    background: var(--main-bg-co);
+    margin:0 auto;
+    padding:0 auto;
+    color:#424242;
+}
+header{
+    padding:20px;
+    margin-bottom:100px;
+
+}
+header h1{
+    margin;0;
+    font-weight:normal;
+}
+main{
+    background:url("Frame\ 2.png") no-repeat center 100px;
+    margin:0 auto;
+    width:1000px
+}
+.hero{
+    text-align: center;
+    min-height:800px;
+
+}
+.hero h2{
+    font-size: 9em;
+    line-height:1em;
+    text-transform :uppercase;
+    margin:0
+}
+
+.context{
+    text-align: center;
+}
+.context h3{
+    font-size:  4em;
+}
+.search {
+    text-align: center;
+    font-size:4em;
+
+}
+.context ul li{
+    list-style-type:none;
+    margin:10px 0;
+    padding:0 0 0 40px;
+}
+.context ul li.wifi{
+    background:url("wifi-solid\ 1.svg") no-repeat center left;
+}
+.context ul li.cloud{
+    background: url("cloud-arrow-up-solid\ 1.svg") no-repeat center left;
+}
+.context ul li.photo{
+    background: url("photo-film-solid\ 1.svg") no-repeat center left;
+
+}
+.context ul li.QR{
+    background:url("qrcode-solid\ 1.svg") no-repeat center left;
+}
+form{
+    font-size: large;
 }
